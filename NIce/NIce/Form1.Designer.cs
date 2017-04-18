@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.ultraLiveTileView1 = new Infragistics.Win.UltraWinLiveTileView.UltraLiveTileView();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraLiveTileView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // ultraLiveTileView1
+            // 
+            this.ultraLiveTileView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ultraLiveTileView1.Location = new System.Drawing.Point(0, 0);
+            this.ultraLiveTileView1.Name = "ultraLiveTileView1";
+            this.ultraLiveTileView1.Size = new System.Drawing.Size(659, 434);
+            this.ultraLiveTileView1.TabIndex = 0;
+            this.ultraLiveTileView1.Text = "ultraLiveTileView1";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(659, 434);
+            this.Controls.Add(this.ultraLiveTileView1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.ultraLiveTileView1)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Infragistics.Win.UltraWinLiveTileView.UltraLiveTileView ultraLiveTileView1;
     }
 }
 
